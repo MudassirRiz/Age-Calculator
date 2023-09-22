@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgb(176, 176, 33), rgb(189, 131, 23));
+}
+.container{
+    height: 50%;
+    width: 30%;
+   /*  background: transparent; */
+    margin: 150px 40px 100px 80px;
+    
+}
+.container h1 span{
+    color: rgb(255, 255, 255);
+
+}
+body > div > div{
+    width: 340px;
+    height: 70px;
+    background: rgb(199, 199, 40);
+    margin-top: 20px;
+    opacity: 1;
+   
+
+}
+.background .box{
+    margin: 20px 20px 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+
+}
+
+.background .box input{
+    border: 0;
+    outline: 0;
+    width: 220px;
+    height: 30px;
+    background-color:white;
+    color: black;    
+
+}
+
+#btn{
+    
+    border: 0;
+    outline: 0;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgb(234, 157, 14);
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+h4{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+   
+}
+h4 span{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
